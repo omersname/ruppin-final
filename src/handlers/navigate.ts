@@ -1,7 +1,7 @@
 import {navigation} from '../services/navigation';
 import {API_ROUTE} from '../config/routes';
 
-const ROOT = 'http://localhost:3000';
+const ROOT = '';
 
 export const navigate = {
   home: () => navigation.goTo(ROOT),
